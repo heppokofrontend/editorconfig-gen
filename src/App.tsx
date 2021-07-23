@@ -262,6 +262,7 @@ function App() {
                 <p className={styles.row}>
                   <Input
                     type="number"
+                    min={0}
                     label="indent_size"
                     value={item.indent_size}
                     onChange={getOnChange(idx, 'indent_size')}
@@ -271,6 +272,7 @@ function App() {
                 <p className={styles.row}>
                   <Input
                     type="number"
+                    min={0}
                     label="tab_width"
                     value={item.tab_width}
                     onChange={getOnChange(idx, 'tab_width')}
