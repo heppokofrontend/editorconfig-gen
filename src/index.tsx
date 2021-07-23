@@ -20,6 +20,12 @@ ReactDOM.render(
       <main>
         <App />
       </main>
+
+      <footer>
+        <p>
+          <a href="/">Home</a> - <a href="https://github.com/heppokofrontend/editorconfig-gen">GitHub</a>
+        </p>
+      </footer>
     </React.StrictMode>,
     document.getElementById('root'),
 );
