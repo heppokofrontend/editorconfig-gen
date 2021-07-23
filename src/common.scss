@@ -10,7 +10,9 @@ body {
 }
 
 header {
+  position: relative;
   padding: 20px 10px 0 5px;
+  font-size: 12px;
 }
 
 main {
@@ -18,7 +20,7 @@ main {
 }
 
 h1 {
-  position: relative;
+  font-size: 16px;
 }
 
 h2 {
@@ -41,6 +43,10 @@ button {
   border-radius: 20px;
 }
 
+a {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 700px) {
   header {
     padding: 20px 20px 0 15px;
@@ -48,5 +54,14 @@ button {
 
   main {
     padding: 14px 20px 20px 15px;
+  }
+
+  button {
+    transition: .2s opacity ease-out;
+
+    &:focus,
+    &:hover {
+      opacity: .6;
+    }
   }
 }

@@ -212,7 +212,7 @@ function App() {
               });
             }}
           >
-            先頭に追加
+            Add to top
           </button>
         </p>
 
@@ -342,7 +342,7 @@ function App() {
                         });
                       }}
                     >
-                      この下に追加
+                      Add below this
                     </button>
                   </span>
 
@@ -360,7 +360,7 @@ function App() {
                         });
                       }}
                     >
-                      削除
+                      Delete
                     </button>
                   </span>
                 </p>
@@ -410,7 +410,7 @@ function App() {
               });
             }}
           >
-            整形する
+            Format
           </button>
         </p>
 
