@@ -32,7 +32,8 @@
     "@typescript-eslint/parser": "^4.28.4",
     "eslint": "^7.31.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.24.0"
+    "eslint-plugin-react": "^7.24.0",
+    "sass": "^1.35.2"
   },
   "eslintConfig": {
     "extends": [
