@@ -13,7 +13,7 @@ ReactDOM.render(
         </h1>
 
         <p>
-          Please read the <a href="https://editorconfig-specification.readthedocs.io/">EditorConfig Specification</a>
+          Please read the <a href="https://editorconfig-specification.readthedocs.io/">EditorConfig Specification</a>.
         </p>
       </header>
 

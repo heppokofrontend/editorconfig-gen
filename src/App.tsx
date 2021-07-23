@@ -401,6 +401,12 @@ function App() {
           <label htmlFor="textarea">Output</label>
         </h2>
 
+        <p className={styles.note}>
+          <small>
+            *Comments are not supported.
+          </small>
+        </p>
+
         <p className={styles.btn}>
           <button
             onClick={() => {
@@ -419,7 +425,7 @@ function App() {
             className={styles.textarea}
             id="textarea"
             onChange={(e) => {
-              const value = e.target.value.replace(/#.*$/gm, '');
+              const value = e.target.value.replace(/[#;].*$/gm, '');
 
               setTextValue(value);
               setConfig(parse(value));
