@@ -1,0 +1,41 @@
+.input {
+  display: flex;
+  align-items: center;
+
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 160px;
+    font-size: 12px;
+
+    &::after {
+      content: "=";
+    }
+  }
+
+  &__control {
+    padding: 0 0 0 10px;
+    flex-grow: 1;
+  }
+
+  &__input,
+  &__select {
+    display: block;
+    background: #fff;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px;
+    line-height: (18 / 16);
+    border: 1px solid #ccc;
+  }
+
+  &__input {
+
+  }
+
+  &__select {
+
+  }
+}

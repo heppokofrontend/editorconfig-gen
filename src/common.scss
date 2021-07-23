@@ -1,0 +1,52 @@
+*:focus-visible {
+  box-shadow: 0 0 0 2px #000;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #333;
+  border-left: 5px solid #feec00;
+}
+
+header {
+  padding: 20px 10px 0 5px;
+}
+
+main {
+  padding: 14px 10px 20px 5px;
+}
+
+h1 {
+  position: relative;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  width: 140px;
+  max-width: 100%;
+  padding: 10px 10px 9px;
+  font-size: 14px;
+  background: #eee;
+  text-align: center;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  header {
+    padding: 20px 20px 0 15px;
+  }
+
+  main {
+    padding: 14px 20px 20px 15px;
+  }
+}

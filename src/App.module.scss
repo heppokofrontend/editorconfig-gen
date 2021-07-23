@@ -1,0 +1,97 @@
+.container {
+
+}
+
+.config,
+.output {
+  padding: 20px 20px 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow:  20px 20px 60px #ddd,
+              -20px -20px 60px #ffffff;
+}
+
+.row {
+  margin: 10px 0;
+}
+
+.checkboxRoot {
+  margin: 20px 0;
+}
+
+.lytBtn {
+  margin: 30px 0 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  &__item {
+    max-width: calc(50% - 5px);
+  }
+}
+
+.btn {
+  margin: 20px 0;
+}
+
+.fieldset {
+  padding: 10px 10px 20px;
+  margin: 40px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.textarea {
+  width: 100%;
+  min-height: 200px;
+  height: 100%;
+  resize: vertical;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 6px;
+  white-space: revert; // for Safari
+}
+
+.output {
+
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 40%);
+    gap: 20px;
+  }
+
+  .config,
+  .output {
+    grid-row: 1 / 2;
+  }
+
+  .config {
+    grid-column: 1 / 2;
+  }
+
+  .output {
+    position: sticky;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    max-height: 100vh;
+
+    &__field {
+      flex-grow: 1;
+    }
+  }
+}

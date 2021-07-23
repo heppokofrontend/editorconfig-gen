@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import '../node_modules/the-new-css-reset/css/reset.css';
+import './common.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
     <React.StrictMode>
-      <App />
+      <header>
+        <h1>
+          EditorConfig Generator
+        </h1>
+      </header>
+
+      <main>
+        <App />
+      </main>
     </React.StrictMode>,
     document.getElementById('root'),
 );

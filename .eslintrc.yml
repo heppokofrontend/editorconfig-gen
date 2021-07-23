@@ -34,3 +34,4 @@ rules:
     - requireReturn: false
       requireParamType: false
       requireReturnType: false
+  camelcase: 'off'
