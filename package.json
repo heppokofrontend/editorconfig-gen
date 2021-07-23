@@ -1,6 +1,7 @@
 {
   "name": "editorconfig-gen",
   "version": "0.1.0",
+  "description": "Generates the EditorConfig configuration file.",
   "browserslist": {
     "production": [
       ">0.2%",
